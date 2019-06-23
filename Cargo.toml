@@ -1,0 +1,16 @@
+[package]
+name = "mle-nn"
+version = "0.1.0"
+authors = ["Daniel Kudernatsch <d.kudernatsch@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+rand="*"
+nom = "^4.2"
+nalgebra = "*"
+typenum = "*"
+generic-array = "*"
+
+[profile.release]
+debug = true
+
